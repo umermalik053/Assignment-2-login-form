@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            height: 12px;
+        }
+
+        #qua {
+            margin: 2px;
+            align-content: end;
+        }
+
+        #name {
+            /* display: flex;
+            justify-content: space-around;
+            justify-items: flex-start ; */
+            padding-right: 25px;
+            display: inline;
+
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../index.html"><img src="./back.png" alt=""></a>
+    <!-- <center> -->
+
+    <div style="display: flex; justify-content: space-around; align-items: flex-start; width: 100%;   ">
+        <form action="">
+            <img src="./images.png" alt="">
+            <h1>Student Login Form</h1>
+            <!-- <span>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="email" placeholder="Enter your Email"></span><br>
+            <span>Password: &nbsp;&nbsp;&nbsp;</span> <input type="password" placeholder="Enter your Password">
+            -->
+            <span id="name">First Name: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"
+                placeholder="Enter the First Name">(max 30 characters a-z and A-Z)<br><br><br>
+            <span id="name">Last Name: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter the Last Name">
+            (max 30 characters a-z and A-Z)<br><br><br>
+            <span id="name">Date Of Birth: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Date"><br><br><br>
+            <span id="name">Email:
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                type="email"  placeholder="Enter the Email Address"><br><br><br>
+            <span id="name">Mobile Number: </span><input type="number" minlength="10" maxlength="10"  placeholder="Enter the Mobile Number">(10 Digits
+            Numbers)<br><br><br>
+            <span id="name">Gender: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                type="radio" name="Gender" id=""> <span id="radio">Male </span>
+            <input type="radio" name="Gender" id=""><span id="radio">Female </span><br><br><br>
+            <span id="name">Address:
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="" id=""
+                cols="30" rows="5"></textarea><br><br><br>
+            <span id="name">City:
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                type="text"  placeholder="Enter the City">(max 30 characters a-z and A-Z)<br><br><br>
+            <span id="name">Pincode:
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  placeholder="Enter the Pincode">(6 Digits
+            Numbers)<br><br><br>
+            <span id="name">State:
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                type="text"  placeholder="Enter the State">(max 30 characters a-z and A-Z)<br><br><br>
+            <span id="name">Country:
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                type="text"  placeholder="Enter the Country"><br><br><br>
+
+
+            <span id="name">Hobbies:
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drawing<input type="checkbox"
+                name="Drawing" id="">
+            Singing<input type="checkbox" name="Singing" id="">
+            Dancing<input type="checkbox" name="dancing">
+            Sketching<input type="checkbox" name="Sketching">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Other<input type="checkbox" name="other"><input type="text" name="" id="">
+            <br><br><br>
+            <span id="name">Qualification:&nbsp;&nbsp;&nbsp;&nbsp;
+            </span><span>S.no</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Examination</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Board</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Percentage</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>year
+                of passing</span>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>1</span>
+            &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<span>Class X</span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;<input id="qua" type="text"><input id="qua" type="text"><input id="qua"
+                type="text">
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>2</span>&nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<span>Class XII</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp; &nbsp;<input id="qua" type="text"><input id="qua" type="text"><input id="qua" type="text">
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>3</span>&nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<span>Graduation</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            &nbsp;<input id="qua" type="text"><input id="qua" type="text"><input id="qua" type="text">
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>4</span>&nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<span>Master</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;<input id="qua" type="text"><input id="qua" type="text"><input id="qua"
+                type="text"><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(10
+            char max)
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;upto
+            2 decimal
+            <br><br><br>
+            <span id="name">Courses <br>applied for:</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="course" id="course">
+                <option value="Any">Select Any course </option>
+                <option value="web & App">Web & App </option>
+                <option value="graphics">graphics</option>
+                <option value="video animation">video animation</option>
+                <option value="python">python</option>
+            </select><br><br><br>
+
+            <span id="name">Upload you pic <br>
+                (only .png,.jpg,.jpeg <br> formats allow)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name=""
+                id="">
+
+
+
+
+
+
+            <br /><br />
+            <center>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </center>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
